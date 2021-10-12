@@ -1,4 +1,38 @@
-1. What is this test checking?
+1. In JS what is the difference between == and ===?
+
+```
+let a = 8 
+let b = '8' 
+
+console.log(a == b)
+console.log(a === b) 
+```
+
+2. Write code to print the words with more than 3 letters
+
+```
+// Return the words with more than 3 letters
+const words = ['one', 'apple', 'red', 'javascript', 'at', 'blueberries']
+```
+
+3. Write code to sum an array of numbers
+
+```
+const a = [1, 2, 3, 4, 5];
+```
+
+4. What will this code print?
+
+```
+function printVar() {
+  console.log(a);
+  var a = 'tree';
+}
+
+printVar(); 
+```
+
+5. What is this test checking?
 
 ```
 it('loads 3 elements', () => {
@@ -13,7 +47,7 @@ it('loads 3 elements', () => {
 ```
 
 
-2. What is the difference between these 2 tests?
+6. What is the difference between these 2 tests?
 ```
 it('check header - 1', () => {
   cy.get('.docs-header')
@@ -35,7 +69,7 @@ it('check header - 2', () => {
 ```
 
   
- 3. Please explain what intercept and wait do in this test
+ 7. Please explain what intercept and wait do in this test
  ```
  cy.intercept({
     url: 'http://example.com/search*',
@@ -45,7 +79,7 @@ it('check header - 2', () => {
   cy.wait('@search');
   ```
   
-  4. Is there anything wrong with this test? How can it be improved?
+  8. Is there anything wrong with this test? How can it be improved?
   ```
   describe('my form', () => {
     before(() => {
