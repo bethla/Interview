@@ -1,4 +1,4 @@
-1. In JS what is the difference between == and ===?
+1. What each of these console statements will print?
 
 ```
 let a = 8 
